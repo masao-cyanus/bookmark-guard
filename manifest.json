@@ -30,7 +30,18 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "bookmark-guard@users.noreply.github.com",
-      "strict_min_version": "109.0"
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": [
+          "bookmarksInfo"
+        ],
+        "bookmarks": {
+          "description": "Access bookmarks locally to protect them. No data is transmitted."
+        },
+        "storage": {
+          "description": "Store extension settings locally on the user's device."
+        }
+      }
     }
   }
 }
