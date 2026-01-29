@@ -143,9 +143,6 @@ browser.runtime.onMessage.addListener(async (msg) => {
     await browser.storage.local.set({ locked: false });
   }
 
-  // Take a new snapshot every time the extension starts
-  await takeSnapshot();
-
   browser.action.setBadgeText({ text: isLocked ? "🔒" : "" });
   log("init", `Session started. Mode: ${isLocked ? "Locked" : "Unlocked"}`);
 })();
