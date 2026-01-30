@@ -1,6 +1,6 @@
 # Bookmark Guard
 
-Bookmark Guard is a simple tool that "freezes" your Firefox bookmarks.
+A simple tool that "freezes" your Firefox bookmarks.
 
 ## Features
 

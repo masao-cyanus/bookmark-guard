@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Bookmark Guard",
-  "version": "1.3",
+  "version": "1.4",
   "permissions": [
     "bookmarks",
     "storage",
@@ -33,14 +33,8 @@
       "strict_min_version": "142.0",
       "data_collection_permissions": {
         "required": [
-          "bookmarksInfo"
-        ],
-        "bookmarks": {
-          "description": "Access bookmarks locally to protect them. No data is transmitted."
-        },
-        "storage": {
-          "description": "Store extension settings locally on the user's device."
-        }
+          "none"
+        ]
       }
     }
   }
