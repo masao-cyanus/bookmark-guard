@@ -1,4 +1,4 @@
-# Bookmark Guard
+## Bookmark Guard
 
 A simple tool that "freezes" your Firefox bookmarks.
 
